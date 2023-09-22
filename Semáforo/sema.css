@@ -8,16 +8,15 @@ body{
     min-height: 100vh;
     display: grid;
     place-items: center;
-    background-color: #b0b0b0;
+    background-image: url(img/cidade_files/pngtree-chongqing-city-road-car-advertising-background-map-png-image_2214298.jpg);
+    background-size: cover;
 }
-.container{
-    display: grid;
-    place-items: center;
-}
+
+
 .semaforo{
-    width: 100px;
-    height: 200px;
-    border-radius: 30px;
+    width: 200px;
+    height: 300px;
+    border-radius: 40px;
     display: grid;
     place-items: center;
     background-color: #2c3e50;
@@ -25,8 +24,8 @@ body{
 }
 .luces-circulo{
     display: block;
-    width: 45px;
-    height: 45px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
     background-color: rgb(0, 0,0,0.3);
     position: relative;
@@ -34,22 +33,11 @@ body{
 .luces-circulo::after{
     content: '';
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     border-right: 4px solid rgb(255, 255,255,0.6);
-    top: 5%;
-}
-.stick{
-    width: 8px;
-    height: 280px;
-    background-color: rgb(0, 0,0,0.5);
-}
-.floor{
-    width: 300px;
-    height: 1px;
-    background-color: rgb(0, 0,0,0.5);
-    box-shadow: 0 0 10px 1px #a5682a;
+    top: 4.5%;
 }
 .red{
     background-color: red;
