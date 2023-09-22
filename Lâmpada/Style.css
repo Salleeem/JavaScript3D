@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px){
     
-header, main{
+header, main, body{
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -2,16 +2,19 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jogo da velha</title>
-  <link rel="stylesheet" href="Style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Jogo da velha</title> 
+  <link rel="stylesheet" href="Velha.css"> 
 </head>
+
 <body>
-  <main>
+  <main> <!-- Define a seção principal do conteúdo da página -->
     <h1>Jogo da velha</h1>
-    <hr />
-    <div class="main">
+    <hr /> <!-- Insere uma linha horizontal -->
+    <div class="main"> <!-- Cria uma seção principal para o jogo da velha -->
+
+      <!-- Botões numerados que representam as células do jogo -->
       <button data-i="1"></button>
       <button data-i="2"></button>
       <button data-i="3"></button>
@@ -23,9 +26,10 @@
       <button data-i="9"></button>
     </div>
     <br>
-    <h2 class="QuemJoga"></h2>
+
+    <h2 class="QuemJoga"></h2> <!-- Exibe o status do jogo, indicando de quem é a vez -->
+
   </main>
- 
 </body>
-<script src="Script.js"></script>
+<script src="Velha.js"></script>
 </html>

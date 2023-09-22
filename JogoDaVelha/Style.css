@@ -1,44 +1,53 @@
+/* Define um estilo básico para todos os elementos HTML */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Times New Roman', Times, serif;
-  text-align: center;
+  font-family: 'Times New Roman', Times, serif; /* Define a fonte para texto */
+  text-align: center; /* Centraliza o texto no centro da página */
 }
 
+/* Estiliza o corpo da página */
 body {
-  color: white;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(151,1,178,0.8913690476190477) 100%);
+  color: white; 
+  height: 100vh; /* Faz com que o corpo da página ocupe toda a altura da janela do navegador */
+  display: flex; /* Define um layout flexível */
+  align-items: center; /* Centraliza verticalmente os elementos */
+  justify-content: center; /* Centraliza horizontalmente os elementos */
+  background: rgb(0,0,0); 
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(151,1,178,0.8913690476190477) 100%);
+  /* Adiciona um fundo gradiente de preto para roxo escuro */
 }
 
+/* Estiliza o conteúdo principal */
 main {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+  display: flex; /* Define um layout flexível */
+  flex-direction: column; /* Organiza os elementos em uma coluna vertical */
+  gap: 5px; /* Define um espaço entre os elementos */
 }
 
+/* Estiliza uma linha horizontal */
 hr {
-  font-weight: bold;
-  height: 3px;
-  background: black;
-  margin-bottom: 10px;
+  font-weight: bold; /* Deixa o texto da linha em negrito */
+  height: 3px; /* Define a altura da linha */
+  background: black; /* Define a cor de fundo da linha como preta */
+  margin-bottom: 10px; /* Adiciona um espaço na parte inferior da linha */
 }
+
+/* Estiliza a seção principal do jogo da velha */
 
 .main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: grid; /* Define um layout de grade */
+  grid-template-columns: 1fr 1fr 1fr; /* Divide a grade em três colunas iguais */
 }
 
+/* Estiliza os botões do jogo da velha */
+
 .main button {
-  width: 100px;
-  height: 100px;
-  margin: 5px;
-  cursor: pointer;
-  font-size: 50px;
-  background: #f7f7f7;
+  width: 100px; /* Define a largura dos botões */
+  height: 100px; /* Define a altura dos botões */
+  margin: 5px; /* Adiciona um espaço ao redor dos botões */
+  cursor: pointer; /* Mostra um cursor de mão ao passar o mouse sobre os botões */
+  font-size: 50px; /* Define o tamanho da fonte dentro dos botões */
+  background: #f7f7f7; /* Define um fundo cinza claro para os botões */
 }
