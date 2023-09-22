@@ -2,6 +2,8 @@ const lig = document.getElementById ('lig');
 const des = document.getElementById ('des');
 const lam = document.getElementById ('lam');
 
+//Funções da lâmpada para ligar, desligar e resetar
+
 function resetar (){ 
     return lam.src.indexOf ('quebrada') > -1;
 }
@@ -22,6 +24,8 @@ function desligar(){
 function quebrar(){
     lam.src = './img/LamQuebrada.png'
 }
+
+//Aplicação das funções com o mouse
 
 lig.addEventListener ('click', ligar);
 des.addEventListener ('click', desligar);
